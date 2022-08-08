@@ -1,0 +1,80 @@
+/* your styles go here */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;800&amp;display=swap");
+
+.bg-yel{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+
+.login-bg{
+    background-color: #9A616D
+}
+
+.login-card{
+    border-radius: 1rem
+}
+
+.login-img{
+    border-radius: 1rem 0 0 1rem
+}
+
+.login-i{
+    color: #ff6219
+}
+
+.login-h5{
+    letter-spacing: 1px
+}
+
+.login-a{
+    color: #393f81
+}
+
+.login-p{
+    color: #393f81
+}
+
+
+.icons i {
+    color: #b5b3b3;
+    border: 1px solid #b5b3b3;
+    padding: 6px;
+    margin-left: 4px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.activity-done {
+    font-weight: 600
+}
+
+.list-group li {
+    margin-bottom: 12px
+}
+
+.list-group-item {}
+
+.list li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #e3dada;
+    margin-top: 12px;
+    border-radius: 5px;
+    background: #fff
+}
+
+.checkicon {
+    color: green;
+    font-size: 19px;
+    margin-right: .5em;
+}
+
+.date-time {
+    font-size: 12px
+}
+
+.profile-image img {
+    margin-left: 3px
+}
