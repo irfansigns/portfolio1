@@ -9,7 +9,7 @@
 vendor/
 node_modules/
 storage/
-
+bootstrap/
 *.env
 *.mp4
 Video/
