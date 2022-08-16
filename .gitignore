@@ -8,7 +8,7 @@
 /bitnami.css
 
 node_modules/
-
+storage/
 bootstrap/
 *.env
 *.mp4
