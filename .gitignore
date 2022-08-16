@@ -6,9 +6,9 @@
 /xampp/
 /applications.html
 /bitnami.css
-vendor/
+
 node_modules/
-storage/
+
 bootstrap/
 *.env
 *.mp4

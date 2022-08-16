@@ -1,9 +1,9 @@
 class AppURL{
-    // static BaseURL = "http://127.0.0.1:8000/api/";
-    static BaseURL = "https://admin.replicalounge.pk/api/";
+    static BaseURL = "http://127.0.0.1:8000/api/";
+    // static BaseURL = "https://admin.replicalounge.pk/api/";
     static ProductList = this.BaseURL + "products";
-    static Images = "https://admin.replicalounge.pk/storage/img/";
-    // static Images = "http://localhost:8000/storage/img/";
+    // static Images = "https://admin.replicalounge.pk/storage/img/";
+    static Images = "http://localhost:8000/storage/img/";
 
     static ProductDetails(code){
         return this.BaseURL+"productdetails/"+code;
