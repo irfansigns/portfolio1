@@ -8,9 +8,10 @@ class LayoutController extends Controller
 {
     public function index($id){
         $fileNames = [];
-        // $path = storage_path('app\\public\\img\\'."slider".$id);
-        $path = storage_path('img\\'."slider".$id);
-        // echo $path; return false;
+       // $path = storage_path('app\\public\\img\\'."slider".$id);
+	$path = storage_path('app/public/img/slider'.$id);
+       // $path = url('/storage/img'."/slider".$id);
+      // echo $path; return false;
         $files = \File::allFiles($path);
 
         foreach($files as $file) {
