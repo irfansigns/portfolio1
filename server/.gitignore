@@ -1,2 +1,11 @@
-.mp4
+
 vendor/
+public/*
+!public/.htaccess
+!public/css
+!public/favicon.ico
+!public/index.php
+!public/js
+!public/mix-manifest.json
+!public/robots.txt
+!public/web.config
