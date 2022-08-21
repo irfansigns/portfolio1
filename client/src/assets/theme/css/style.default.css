@@ -1467,6 +1467,21 @@ STYLE SWITCHER FOR DEMO
   font-size: 1.25rem;
 }
 
+.mob-cart{
+  display:none ;
+}
+
+@media (max-width: 412px) {
+  .navbar-brand {
+    margin-right: -1rem;
+  }
+
+  .mob-cart{
+    display:block ;
+  }
+  
+}
+
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -3353,7 +3368,7 @@ code {
   .card-deck .card {
     margin-right: 15px;
     margin-left: 15px;
-  }
+  } 
 }
 
 /*

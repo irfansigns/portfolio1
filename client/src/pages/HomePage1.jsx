@@ -47,7 +47,7 @@ const HomePage1 = () => {
                     </div>
                 </div>
                 <h6> <Link className="reset-anchor" to="detail.html">{product.pname}</Link></h6>
-                <p className="small text-muted">${product.price}</p>
+                <p className="small text-muted">Rs.{product.price}</p>
                 {/* <button className="btn btn-small"><a href={product.edit_url}>Edit</a></button> */}
                 </div>
             </div>

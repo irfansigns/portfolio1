@@ -21,7 +21,7 @@ class AppURL{
         return this.BaseURL+"shop/"+code;
     }
 
-    static storeOrder = this.BaseURL + "storeOrder/";
+    static storeOrder = this.BaseURL + "storeOrder";
     static UserLogin = this.BaseURL+"login";
     static UserRegister = this.BaseURL+"register";
     static UserData = this.BaseURL+"user"

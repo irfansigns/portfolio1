@@ -77,7 +77,7 @@ const ProductDetails = (props) => {
       )
     }else{
       return(
-        <h1>State not set</h1>
+        <h3>Loading...</h3>
       )
     }
 }

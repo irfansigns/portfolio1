@@ -67,7 +67,10 @@ const CartPage = () => {
         guest: loginMod,
       };
       
-      axios.post(AppURL.storeOrder,data).then(response=>{
+      axios.post(AppURL.storeOrder,data,{
+        headers: { "Content-Type": "application/json" }
+      })
+      .then(response=>{
             // console.dir(response.data);
             if(response.data.email){
               setError(response.data);
